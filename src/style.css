@@ -26,9 +26,14 @@ p {
   background-image: url('hero.jpg');
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
+  padding: 1.5rem 0;
   text-align: center;
-  color: #fff;
+  color: black;
+  height: auto;
+}
+
+.hero div {
+  margin: 1.5rem 0 0 0;
 }
 
 .hero h2 {
@@ -40,6 +45,7 @@ p {
   font-size: 20px;
   max-width: 600px;
   margin: 0 auto;
+  height: auto;
 }
 
 .hero .btn {
@@ -49,6 +55,8 @@ p {
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 .hero .btn:hover {
@@ -98,6 +106,10 @@ p {
   background-color: #fff;
 }
 
+.contact h2 {
+  text-align: center;
+}
+
 .contact form {
   max-width: 600px;
   margin: 0 auto;
@@ -135,7 +147,7 @@ p {
 }
 
 .map {
-  padding: 40px 0;
+  padding: 0;
 }
 
 .map iframe {
