@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Redes e Infraestrutura Web</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -47,7 +48,7 @@
 
   <section class="contact" id="contact">
     <h2>Entre em contato</h2>
-    <form action="#">
+    <div class="form">
       <label for="name">Nome:</label>
       <input type="text" id="name" name="name" required>
 
@@ -57,8 +58,8 @@
       <label for="message">Mensagem:</label>
       <textarea id="message" name="message" required></textarea>
 
-      <button type="submit">Enviar</button>
-    </form>
+      <button onclick="handleSubmitContact()">Enviar</button>
+    </div>
   </section>
 
   <section class="map">
